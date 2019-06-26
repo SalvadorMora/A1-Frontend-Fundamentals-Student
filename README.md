@@ -1,22 +1,21 @@
 ##### Introducción
-## Frontend Fundamentals
+## Frontend Fundamentals: HTML y CSS Básico
 
 ### OBJETIVO
 
-El alumno comine las herramientas implementadas en de desarrollo de interfaces estaticas.
+El alumno identifique y comprenda el uso de las etiquetas de HTML con el uso de estilos de CSS para definir las vistas. 
 
 ### DESARROLLO
 
-Dentro de este repositorio se encuentran los materiales necesarios para usar durante la clase presencial.
+En esta sesión nos dedicaremos a introducir a los alumnos a los temas básicos de HTML y CSS.
 
-Durante este módulo aprenderemos a desarrollar interfaces con las herramientas básicas dentro del desarrollo web, las cuales son:
+Los temas que veremos son:
 
-- HTML
+1. ¿Qué es HTML?
 
-- CSS
+2. ¿Qué es CSS?
 
-- Git
+3. Selectores de CSS
 
-- Bootstrap
+4. Modelo de cajas 
 
-- SASS
