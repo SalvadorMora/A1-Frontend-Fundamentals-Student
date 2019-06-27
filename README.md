@@ -1,22 +1,19 @@
 ##### Introducción
-## Frontend Fundamentals
+## Frontend Fundamentals: HTML y CSS Avanzado
 
 ### OBJETIVO
 
-El alumno comine las herramientas implementadas en de desarrollo de interfaces estaticas.
+El alumno profundice los temas vistos la sesión anterior y conozca nuevos elementos de HTML y CSS.
 
 ### DESARROLLO
 
-Dentro de este repositorio se encuentran los materiales necesarios para usar durante la clase presencial.
+En esta sesión conoceremos y pondremos en práctica temas avanzados de HTML y CSS.
 
-Durante este módulo aprenderemos a desarrollar interfaces con las herramientas básicas dentro del desarrollo web, las cuales son:
+Los temas que veremos son:
 
-- HTML
+1. Pseudo Clases
 
-- CSS
+2. Responsive Design (Este tema será visto a más profundidad en la Sesión06: Responsive design)
 
-- Git
+3. Media Queries
 
-- Bootstrap
-
-- SASS
