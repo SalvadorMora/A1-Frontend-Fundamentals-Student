@@ -1,13 +1,21 @@
 ##### Introducción
-## Frontend Fundamentals: Git
+## Frontend Fundamentals: Flex Box y The Grid CSS
 
 ### OBJETIVO
 
-Los alumnos aprendan a usar los comandos básicos para la administración de un repositorio de git.
+El alumno aprenda cómo manipular el display de los elementos de HTML para un posicionamiento fluido del layout.
 
 ### DESARROLLO
 
-El siguiente enlace nos dirige a un repositorio este tiene definida la estructura de las branch y los commits necesarios que se piden en las prácticas.
+En esta sesión pondremos en práctica el concepto de display y cómo manipularlo de una manera sencilla con Flex Box y The Grid CSS.
 
-[Bedu-Travels](https://github.com/SalvadorMora/Bedu-Travels)
+Los temas que veremos son:
+
+1. Layout
+
+2. Display
+
+3. Flex Box
+
+4. The Grid CSS
 
