@@ -2,89 +2,6 @@
 /*Colores*/
 /*Medidas*/
 /*Posición*/
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-}
-
-/*Para el posicionamiento de los elementos del navBar se usa Flexbox. Este tema se
-verá con más profunidad las próxima sesiónes, pero por el momento puedes usarlo*/
-nav {
-  background-color: #24272a;
-  height: 50px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-nav div a {
-  color: #fff;
-  text-decoration: none;
-  padding-right: 20px;
-}
-nav div a:hover {
-  color: red;
-}
-
-footer {
-  height: 200px;
-  width: 100%;
-  background-color: #24272a;
-  color: #fff;
-  display: flex;
-  align-items: center;
-}
-
-ul {
-  list-style-type: none;
-}
-
-#bedu-logo {
-  margin-left: 20px;
-  width: 50px;
-}
-
-#home-cover {
-  background-image: url("../images/img_cover_home.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 70vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  color: #fff;
-}
-
-#icons-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-#icons-container {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-#icons-container i {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 300px;
-  margin-top: 50px;
-}
-
-/*Aquí definiremos algunas medidas de margin y padding estandar para nuestro proyecto, se irán agregando más en las siguientes sesiones*/
 .margin-top-lg {
   margin-top: 50px;
 }
@@ -125,6 +42,71 @@ ul {
   padding-left: 15px;
 }
 
+@media screen and (min-width: 400px) {
+  .desktop {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 799px) and (min-width: 499px) {
+  .desktop {
+    display: flex !important;
+  }
+
+  #icons-container {
+    display: flex;
+    flex-wrap: inherit;
+  }
+
+  .top-country-gridarea {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    justify-items: center;
+    padding: 10px;
+  }
+
+  .top-country-gridarea > div {
+    width: 40vw !important;
+    height: 30vh;
+    text-align: center;
+    margin: 15px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .mobile {
+    display: none !important;
+  }
+
+  .top-country-flexarea {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .top-country-gridarea > div {
+    width: 60vw;
+  }
+
+  .searchbar {
+    width: 80%;
+  }
+
+  .login-inputs {
+    width: 100%;
+  }
+
+  .login-info {
+    padding: 0;
+  }
+
+  .register-inputs {
+    width: 100%;
+  }
+
+  .register-info {
+    padding: 0;
+  }
+}
 .text-center {
   text-align: center;
 }
@@ -139,6 +121,85 @@ ul {
 
 .subtitle-font {
   font-size: 20px;
+}
+
+.container-title-subtitle p:first-child {
+  font-size: 30px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.45);
+}
+
+.container-title-subtitle > p:last-child {
+  font-size: 20px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.45);
+}
+
+footer {
+  height: 200px;
+  width: 100%;
+  background-color: #24272a;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.social-media-container {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+}
+
+.social-media-container > a > img {
+  width: 30px;
+  padding: 0 10px 0 10px;
+}
+
+.social-media-container > a > img:hover {
+  width: 40px;
+}
+
+footer > ul > li:first-of-type {
+  font-size: 20px;
+}
+
+nav {
+  background-color: #24272a;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav div a {
+  color: #fff;
+  text-decoration: none;
+  padding-right: 20px;
+}
+nav div a:hover {
+  color: red;
+}
+
+#bedu-logo {
+  margin-left: 20px;
+  width: 50px;
+}
+
+#home-cover {
+  background-image: url("../images/img_cover_home.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
 }
 
 .searchbar {
@@ -163,45 +224,16 @@ ul {
 }
 
 .searchbar > input:focus {
-  outline: 0px;
+  outline: 0;
 }
 
 .search-button {
   height: 44px;
   width: 45px;
-  color: white;
-  background-color: #303e48;
-  margin: 0px;
+  color: #fff;
+  background-color: #24272a;
+  margin: 0;
   border-radius: 5px;
-}
-
-.social-media-container {
-  display: flex;
-  justify-content: center;
-  width: 300px;
-}
-
-.social-media-container > a > img {
-  width: 30px;
-  padding: 0 10px 0 10px;
-}
-
-.social-media-container > a > img:hover {
-  width: 40px;
-}
-
-footer > ul > li:first-of-type {
-  font-size: 20px;
-}
-
-.container-title-subtitle p:first-child {
-  font-size: 30px;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.45);
-}
-
-.container-title-subtitle > p:last-child {
-  font-size: 20px;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.45);
 }
 
 .dropbtn {
@@ -249,6 +281,40 @@ footer > ul > li:first-of-type {
   background-color: #24272a;
 }
 
+.confirm-button {
+  padding: 7px 10px;
+  color: #fff;
+  line-height: 17px;
+  border-radius: 3px;
+  text-align: center;
+  border: 1px solid #3eb368;
+  background: #3eb368;
+}
+
+.cancel-button {
+  padding: 7px 10px;
+  color: #fff;
+  line-height: 17px;
+  border-radius: 3px;
+  text-align: center;
+  border: 1px solid red;
+  background: red;
+}
+
+#icons-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#icons-container i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  margin-top: 50px;
+}
+
 .top-country-gridarea {
   display: grid;
   grid-template-columns: 32vw 32vw 32vw;
@@ -274,8 +340,7 @@ footer > ul > li:first-of-type {
   border-radius: 10px;
 }
 
-.login-container {
-  height: -webkit-fill-available;
+.input-container, .register-container, .login-container {
   width: 100%;
   background-color: #f2f2f2;
   display: flex;
@@ -283,6 +348,10 @@ footer > ul > li:first-of-type {
   align-items: center;
   padding-bottom: 50px;
   border-radius: 30px;
+}
+
+.login-container {
+  height: -webkit-fill-available;
 }
 
 .login-container > div {
@@ -357,81 +426,67 @@ footer > ul > li:first-of-type {
   border-radius: 5px;
 }
 
-.confirm-button {
-  padding: 7px 10px;
-  border: 1px solid #3eb368;
-  background: #3eb368;
-  color: #fff;
-  line-height: 17px;
-  border-radius: 3px;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-/*Media queries para el diseño responsivo*/
-@media screen and (min-width: 400px) {
-  .desktop {
-    display: none !important;
-  }
+body {
+  font-family: "Roboto", sans-serif;
 }
-@media only screen and (max-width: 799px) and (min-width: 499px) {
-  .desktop {
-    display: flex !important;
-  }
 
-  #icons-container {
-    display: flex;
-    flex-wrap: inherit;
-  }
-
-  .top-country-gridarea {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto auto;
-    justify-items: center;
-    padding: 10px;
-  }
-
-  .top-country-gridarea > div {
-    width: 40vw !important;
-    height: 30vh;
-    text-align: center;
-    margin: 15px;
-  }
+#mexico-photos {
+  height: 80%;
+  width: 100%;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../images/cdmx.jpeg);
 }
-@media screen and (max-width: 800px) {
-  .mobile {
-    display: none !important;
-  }
 
-  .top-country-flexarea {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
+#bogota-photos {
+  height: 80%;
+  width: 100%;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../images/bogota.jpg);
+}
 
-  .top-country-gridarea > div {
-    width: 60vw;
-  }
+#paris-photos {
+  height: 80%;
+  width: 100%;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../images/paris.jpg);
+}
 
-  .searchbar {
-    width: 80%;
-  }
+.panama-photos {
+  height: 80%;
+  width: 100%;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../images/panama.jpg);
+}
 
-  .login-inputs {
-    width: 100%;
-  }
+.panama-photos2 {
+  height: 80%;
+  width: 100%;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../images/panama2.jpg);
+}
 
-  .login-info {
-    padding: 0;
-  }
-
-  .register-inputs {
-    width: 100%;
-  }
-
-  .register-info {
-    padding: 0;
-  }
+.panama-photos3 {
+  height: 80%;
+  width: 100%;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../images/panama3.jpg);
 }
 
 /*# sourceMappingURL=main.css.map */

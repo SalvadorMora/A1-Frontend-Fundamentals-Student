@@ -1,32 +1,18 @@
 ##### Introducción
-## SASS
+## Frontend Fundamentals: Interactividad con JavaScript y Plugins.
 
 ### OBJETIVO
 
-El alumno aprenda qué es un preprocesador de CSS y cómo implementarlo en un proyecto.
+El alumno aprenda a usar jQuery y JavaScript para agregar interactividad al sitio de Bedu Travels.
 
 ### DESARROLLO
 
-En esta clase aprenderemos a usas SASS.
-Una vez que los temas de HTML y CSS han sido dominados el alumno aprenderá que son los preprocesadores de CSS.
-En esta sesión no se podrá usar Bootstrap, los alumnos debve
+En esta sesión el alumno aprendera la diferencia entre usar un lenguaje en su forma pura y en biblioteca, en esta sesión usaremos jQuery y vanilla JavaScript para la interactividad del sitio.
 
-1. Antes de iniciar deberemos de instalar NodeJS en nuestras computadoras.
+1. Antes de iniciar deberemos de agregar el CDN de jQuery.
 
-[Install NodeJS](https://nodejs.org/es/download/)
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 
-Para sistemas operativos Linux ó Mac se recomienda instalar por medio de la linea de comandos.
+2. Modificaremos clases de nuestro sitio usando ambas opciones, JavaScript puro y jQuery para que quede claro a los alumnos el uso de una biblioteca.
 
-sudo apt install nodejs
-
-2. Instalaremos SASS dentro de nuestra computadora
-
-- Deberemos de seguir las instrucciones que señala el sitio oficial.
-- Se deberá de instalar por medio de NPM (Este es manejador de paquetes de NodeJS, la herramienta instalada anteriormente)
-
-
-3. Para comprobar que está instalado podemos usar el comando
-
-- sass -v ó sass --version, esto es para sistemas operativos linux y Mac
-
-4. Comenzaremos a definir las variables necesarias para los estilos del NavBar de BeduTravels.
+3. Usaremos vanilla JavaScript para guardar el valor de los inputs de login y registro. 

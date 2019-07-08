@@ -1,27 +1,17 @@
 ##### Introducción
-## Frontend Fundamentals: SASS
+## Frontend Fundamentals: Interactividad con JavaScript y Plugins.
 
 ### OBJETIVO
 
-Implementar los imports y partials para modularizar nuestro código de SASS.
+El alumno deberá de poner en práctica los conocimientos adquiridos sobre JavaScript.
 
 ### DESARROLLO
 
-Nuestro documento main.scss cada vez se hace más grande y complejo, es por eso que implementaremos los imports y partials, que nos permitirán modularizar nuestros documentos de SASS.
-
-1. Mantendremos main.scss como nuestro documento principal.
-
-2. Crearemos un documento .scss para cada uno de los tipos de estilos que estemos ocupando:
-
-- variables
-
-- media queries
-
-- dimensiones
-
-- textos
+El alumno retomará el código del ejemplo para desarrollar funciones de JavaScript que modifique las imagenes al igual que lo hicimos anteriormente con jQuery.
 
 
-3. usaremos @import para cada uno de los documentos y unirlos a nuestro main.scss
+1. Usaremos la función de toggle nativa de JavaScript para cambiar las imagenes de fondo de los países destino.
 
-4. Durante el desarrollo del proyecto se irán generando más documentos .scss que deberemos de unir a main.scss
+2. Seguiremos usando el mixin para unificar las propiedades y estilos entre nuestros contenedores.
+
+3. Usaremos el atributo id para darle una identidad a nuestros contenedores de HTML.

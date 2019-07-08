@@ -1,16 +1,16 @@
 ##### Introducción
-## Frontend Fundamentals: SASS
+## Frontend Fundamentals: Interactividad con JavaScript y Plugins.
 
 ### OBJETIVO
 
-El alumno deberá de generar vistas responsivas para dispositivos medianos como una tablet.
+Integraremos jQuery en nuestro sitio para generar clases de CSS dinámicas.
 
 ### DESARROLLO
 
-Usando todo el código anterior deberemos de definir medias queries para nuestras vistas de dispositivos de tamaño medio como tablets.
+Agregaremos el CDN de jQuery para hacer uso de las funciones disponibles
 
-1. Reutilizaremos todo el código escrito anteriormente.
+1. Usaremos la función de toggle para cambiar las imagenes de fondo de los países destino.
 
-2. Deberemos de escribir una media querie para dispositivos medianos.
+2. Crearemos un mixin nuevo para unificar las propiedades y estilos entre nuestros contenedores.
 
-3. Deberemos de adaptar todas nuevas vistas a esta nueva medida.
+3. Usaremos el atributo id para darle una identidad a nuestros contenedores de HTML.

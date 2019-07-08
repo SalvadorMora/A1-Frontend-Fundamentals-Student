@@ -1,14 +1,17 @@
 ##### Introducción
-## Frontend Fundamentals: SASS
+## Frontend Fundamentals: Interactividad con JavaScript y Plugins.
 
 ### OBJETIVO
 
-Aprender a ocupar la anidación de SASS.
+El alumno conozca la diferencia entre usar una biblioteca de código como jQuery y vanillia JavaScript.
 
 ### DESARROLLO
 
-Una vez que declaramos las variables en nuestro documento de SASS, deberemos de tener una estructura de HTML donde implementarlos.
 
-1. Crearemos una estructura de NavBar para nuestro documento de HTML.
+Retomaremos el código del CSS y deberemos de desarrollar funciones de vanillia JavaScript que modifique las imagenes al igual que lo hicimos anteriormente con jQuery.
 
-2. En este ejemplo mostramos como implementarlo en un selector de Elemento, pero puede usarse con un selector de clase y ID.
+1. Usaremos la función de toggle nativa de JavaScript para cambiar las imagenes de fondo de los países destino.
+
+2. Seguiremos usando el mixin para unificar las propiedades y estilos entre nuestros contenedores.
+
+3. Usaremos el atributo id para darle una identidad a nuestros contenedores de HTML.
