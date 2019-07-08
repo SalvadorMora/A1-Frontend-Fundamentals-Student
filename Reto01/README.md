@@ -1,17 +1,18 @@
-##### Introducción
-## Frontend Fundamentals: HTML y CSS Básico
+##### Reto 01
+## Imágenes
 
 ### OBJETIVO
+Haciendo uso de los elementos de Bootstrap crea la navBar y la portada para nuestra landing page, personalizada con el tema de Bedu Travels
 
-Desarrollaremos la NavBar sin estilos de home de Bedu Travels usando HTML.
-
+#### REQUISITOS
+1. HTML
+1. CSS
+1. Bootstrap
 
 ### DESARROLLO
+1. Haciendo uso de los elementos de Bootstrap crearemos:
+   - navBar
+   - Portada para nuestra landing page
 
-Por medio de un ejemplo con la etiqueta nav explicar a los alumnos cómo se inicializa un documento de HTML, además de explicar el concepto de etiquetas contenedoras.
-Deberá de ingresar las etiquetas de SignIn y SignOut, para más posicionarlas.
+1. Ambos elementos se deberán de personalizar para el proyecto de BeduTravels.
 
-
-## Requerimientos
-- HTML
-- CSS

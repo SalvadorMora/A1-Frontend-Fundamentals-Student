@@ -1,11 +1,14 @@
 ##### Introducción
-## Frontend Fundamentals: HTML y CSS Básico
+## Bootstrap
 
 ### OBJETIVO
 
-Mostrar a los alumnos cómo se crea un componente de HTML y como las etiquetas contienen más etiquetas dentro.
+Los alumnos implenten Bootstrap para desarrollar la barra de navegación de nuestra landing page.
 
 ### DESARROLLO
 
-Por medio de un ejemplo con la etiqueta nav explicar a los alumnos cómo se inicializa un documento de HTML, además de explicar el concepto de etiquetas contenedoras.
+Lo que deberemos hacer para este ejemplo es:
 
+1. Agregaremos el CDN de Bootstrap en nuestra Landing
+
+2. Implementaremos una barra de navegación usando Bootstrap, esta deberá de personalizarse. 

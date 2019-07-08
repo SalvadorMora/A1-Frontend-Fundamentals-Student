@@ -1,26 +1,26 @@
-##### Introducción
-## Frontend Fundamentals: HTML y CSS Básico
+##### Ejemplo 02
+## Comprobación
 
 ### OBJETIVO
+Aprender el funcionamiento de la grid de Bootstrap y cómo posicionar elementos de HTML de una manera más fácil
 
-Usaremos selectores de elemento para implementar estilos en nuestro navBar.
+#### REQUISITOS
+
+Conocimientos de HTML y CSS
 
 
 ### DESARROLLO
 
-1. Desarrollaremos la NavBar con estilos de home de Bedu Travels usando HTML y CSS
+1. Implementaremos FontAwesome en el proyecto
 
-2. Deberemos de agregar una fuente externa.
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
-3. La estructura de carpetas se ha modificado y debe de quedar de la siguiente manera
+Dentro de este link podremos ver los iconos disponibles:
+[Font Awesnome](https://fontawesome.com/icons?d=gallery&q=travel&m=free)
 
-* BeduTravels
-  * index.html
-  * assets
-    * images
-    * css
+2. Copiaremos el código necesario para poder utilizar la grid de Bootstrap desde su sitio.
+
+3. posicionamos los iconos dentro del grid de Bootstrap
 
 
-## Requerimientos
-- HTML
-- CSS
+__Nota:__ Este ejemplo se realiza en 10 mins o menos.

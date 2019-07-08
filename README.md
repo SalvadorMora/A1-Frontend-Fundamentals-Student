@@ -1,21 +1,24 @@
 ##### Introducción
-## Frontend Fundamentals: HTML y CSS Básico
+## Bootstrap
 
 ### OBJETIVO
 
-El alumno identifique y comprenda el uso de las etiquetas de HTML con el uso de estilos de CSS para definir las vistas. 
+Usando Bootstrap como framework de CSS desarrollaremos una Landing Page informativo para el sitio de Bedu Travels
 
 ### DESARROLLO
 
-En esta sesión nos dedicaremos a introducir a los alumnos a los temas básicos de HTML y CSS.
+Los temas que veremos durante esta sesión serán los siguientes:
 
-Los temas que veremos son:
+1. Agregaremos el CDN de Bootstrap en nuestra Landing
 
-1. ¿Qué es HTML?
+1. Implementaremos componentes de Bootstrap como:
 
-2. ¿Qué es CSS?
+- NavBar
 
-3. Selectores de CSS
+- Jumbotron
 
-4. Modelo de cajas 
+- Grid
 
+- Modal
+
+- Carousel
