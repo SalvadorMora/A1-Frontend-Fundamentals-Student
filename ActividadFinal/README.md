@@ -1,16 +1,20 @@
-##### Introducción
-## Frontend Fundamentals: Flex Box y The Grid CSS
+##### Proyecto Final
 
 ### OBJETIVO
+Haciendo uso de los elementos de Bootstrap crea la navBar y la portada para nuestra landing page, personalizada con el tema de Bedu Travels
 
-Los alumnos pongan en práctica los conocimientos adquiridos durante la sesión.
+#### REQUISITOS
+1. HTML
+1. CSS
+1. Bootstrap
 
 ### DESARROLLO
+1. Usa el componente Carousel para mostrar las imágenes de nuestros usuarios
+1. Implementa el componente de modal dentro de nuestra portada como un call to action
+*	Dentro del modal deberá  de haber un formulario con:
+* Nombre
+* Correo Electrónico  
 
-Se desarrollara la vista de Login de nuestros usuarios.
 
-Para la actividad final deberemos de poner en práctica todos los conocimientos adquiridos durante el bootcamp.
 
-1. Se deberá de generar un documento login.html en el que desarrollaremos el login.
-
-3. Todos los cambios deberán de ser actualizados en GitHub
+__Nota:__ Este ejemplo se realiza en 10 mins o menos.

@@ -1,19 +1,14 @@
 ##### Introducción
-## Frontend Fundamentals: Flex Box y The Grid CSS
+## Bootstrap
 
 ### OBJETIVO
 
-El alumno conozca nuevas y mejores prácticas de posicionamiento de elementos.
+Los alumnos implenten Bootstrap para desarrollar la barra de navegación de nuestra landing page.
 
 ### DESARROLLO
 
-Se usaran las propiedades de Flex Box para posicionar los iconos.
+Lo que deberemos hacer para este ejemplo es:
 
-1. Usaremos los iconos de Font Awesome.
+1. Agregaremos el CDN de Bootstrap en nuestra Landing
 
-2. Deberemos de posicionarlos de al centro en la vertical y de una manera equitativa a la horizontal.
-
-3. Se recomienda tener la documentación a la mano.
-
-4. Recuerda hacer un commit al terminar cada actividad.
-
+2. Implementaremos una barra de navegación usando Bootstrap, esta deberá de personalizarse. 

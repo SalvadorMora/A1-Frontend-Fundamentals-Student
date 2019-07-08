@@ -1,16 +1,26 @@
-##### Introducción
-## Frontend Fundamentals: Flex Box y The Grid CSS
+##### Ejemplo 02
+## Comprobación
 
 ### OBJETIVO
+Aprender el funcionamiento de la grid de Bootstrap y cómo posicionar elementos de HTML de una manera más fácil
 
-Los alumnos conozcan el resto de las propiedades de FlexBox que hay en la documentación.
+#### REQUISITOS
+
+Conocimientos de HTML y CSS
+
 
 ### DESARROLLO
 
-Ya que hemos generado un contenedor que posiciona los elementos, buscaremos dentro de la documentación de FlexBox las propiedades que necesitamos para que nuestros iconos sean responsivos y de posición horizontal pasen a vertical y evitar que se compriman. 
+1. Implementaremos FontAwesome en el proyecto
 
-1. Deberemos de crear un contenedor que tendrá The Grid CSS.
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
-2. Definiremos los estilos necesarios desde nuestro CSS.
+Dentro de este link podremos ver los iconos disponibles:
+[Font Awesnome](https://fontawesome.com/icons?d=gallery&q=travel&m=free)
 
-3. La foto del país y el nombre deberán de estár centrados.
+2. Copiaremos el código necesario para poder utilizar la grid de Bootstrap desde su sitio.
+
+3. posicionamos los iconos dentro del grid de Bootstrap
+
+
+__Nota:__ Este ejemplo se realiza en 10 mins o menos.

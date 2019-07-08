@@ -1,13 +1,18 @@
-### OBJETIVO
+##### Reto 01
+## Imágenes
 
-Los alumnos conozcan el resto de las propiedades de FlexBox que hay en la documentación.
+### OBJETIVO
+Haciendo uso de los elementos de Bootstrap crea la navBar y la portada para nuestra landing page, personalizada con el tema de Bedu Travels
+
+#### REQUISITOS
+1. HTML
+1. CSS
+1. Bootstrap
 
 ### DESARROLLO
+1. Haciendo uso de los elementos de Bootstrap crearemos:
+   - navBar
+   - Portada para nuestra landing page
 
-Ya que hemos generado un contenedor que posiciona los elementos, buscaremos dentro de la documentación de FlexBox las propiedades que necesitamos para que nuestros iconos sean responsivos y de posición horizontal pasen a vertical y evitar que se compriman. 
+1. Ambos elementos se deberán de personalizar para el proyecto de BeduTravels.
 
-1. Deberemos de crear un contenedor que tendrá The Grid CSS.
-
-2. Definiremos los estilos necesarios desde nuestro CSS.
-
-3. La foto del país y el nombre deberán de estár centrados.

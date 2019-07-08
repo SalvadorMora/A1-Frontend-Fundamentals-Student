@@ -1,21 +1,24 @@
 ##### Introducción
-## Frontend Fundamentals: Flex Box y The Grid CSS
+## Bootstrap
 
 ### OBJETIVO
 
-El alumno aprenda cómo manipular el display de los elementos de HTML para un posicionamiento fluido del layout.
+Usando Bootstrap como framework de CSS desarrollaremos una Landing Page informativo para el sitio de Bedu Travels
 
 ### DESARROLLO
 
-En esta sesión pondremos en práctica el concepto de display y cómo manipularlo de una manera sencilla con Flex Box y The Grid CSS.
+Los temas que veremos durante esta sesión serán los siguientes:
 
-Los temas que veremos son:
+1. Agregaremos el CDN de Bootstrap en nuestra Landing
 
-1. Layout
+1. Implementaremos componentes de Bootstrap como:
 
-2. Display
+- NavBar
 
-3. Flex Box
+- Jumbotron
 
-4. The Grid CSS
+- Grid
 
+- Modal
+
+- Carousel
