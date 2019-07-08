@@ -1,26 +1,14 @@
-##### Ejemplo 02
-## Comprobación
+##### Introducción
+## Frontend Fundamentals: SASS
 
 ### OBJETIVO
-Aprender el funcionamiento de la grid de Bootstrap y cómo posicionar elementos de HTML de una manera más fácil
 
-#### REQUISITOS
-
-Conocimientos de HTML y CSS
-
+Aprender a ocupar la anidación de SASS.
 
 ### DESARROLLO
 
-1. Implementaremos FontAwesome en el proyecto
+Una vez que declaramos las variables en nuestro documento de SASS, deberemos de tener una estructura de HTML donde implementarlos.
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+1. Crearemos una estructura de NavBar para nuestro documento de HTML.
 
-Dentro de este link podremos ver los iconos disponibles:
-[Font Awesnome](https://fontawesome.com/icons?d=gallery&q=travel&m=free)
-
-2. Copiaremos el código necesario para poder utilizar la grid de Bootstrap desde su sitio.
-
-3. posicionamos los iconos dentro del grid de Bootstrap
-
-
-__Nota:__ Este ejemplo se realiza en 10 mins o menos.
+2. En este ejemplo mostramos como implementarlo en un selector de Elemento, pero puede usarse con un selector de clase y ID.

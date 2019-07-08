@@ -1,24 +1,32 @@
 ##### Introducción
-## Bootstrap
+## SASS
 
 ### OBJETIVO
 
-Usando Bootstrap como framework de CSS desarrollaremos una Landing Page informativo para el sitio de Bedu Travels
+El alumno aprenda qué es un preprocesador de CSS y cómo implementarlo en un proyecto.
 
 ### DESARROLLO
 
-Los temas que veremos durante esta sesión serán los siguientes:
+En esta clase aprenderemos a usas SASS.
+Una vez que los temas de HTML y CSS han sido dominados el alumno aprenderá que son los preprocesadores de CSS.
+En esta sesión no se podrá usar Bootstrap, los alumnos debve
 
-1. Agregaremos el CDN de Bootstrap en nuestra Landing
+1. Antes de iniciar deberemos de instalar NodeJS en nuestras computadoras.
 
-1. Implementaremos componentes de Bootstrap como:
+[Install NodeJS](https://nodejs.org/es/download/)
 
-- NavBar
+Para sistemas operativos Linux ó Mac se recomienda instalar por medio de la linea de comandos.
 
-- Jumbotron
+sudo apt install nodejs
 
-- Grid
+2. Instalaremos SASS dentro de nuestra computadora
 
-- Modal
+- Deberemos de seguir las instrucciones que señala el sitio oficial.
+- Se deberá de instalar por medio de NPM (Este es manejador de paquetes de NodeJS, la herramienta instalada anteriormente)
 
-- Carousel
+
+3. Para comprobar que está instalado podemos usar el comando
+
+- sass -v ó sass --version, esto es para sistemas operativos linux y Mac
+
+4. Comenzaremos a definir las variables necesarias para los estilos del NavBar de BeduTravels.

@@ -1,22 +1,27 @@
-##### Reto 02
-## Imágenes
+##### Introducción
+## Frontend Fundamentals: SASS
 
 ### OBJETIVO
-Poner en práctica los conocimientos adquiridos sobre la grid, desde la implementación hasta el diseño responsivo.
 
-
-#### REQUISITOS
-1. HTML
-1. CSS
-1. Bootstrap
+Implementar los imports y partials para modularizar nuestro código de SASS.
 
 ### DESARROLLO
 
-1. Haciendo uso del Grid que nos proporciona Bootstrap realizaremos el componente que muestra los destinos preferidos de nuestros clientes.
+Nuestro documento main.scss cada vez se hace más grande y complejo, es por eso que implementaremos los imports y partials, que nos permitirán modularizar nuestros documentos de SASS.
 
-1. Implementaremos el componente “Cards” para agilizar el diseño
+1. Mantendremos main.scss como nuestro documento principal.
 
-1. El diseño tiene que ser responsivo, así que haremos uso de las clases de bootstrap
+2. Crearemos un documento .scss para cada uno de los tipos de estilos que estemos ocupando:
+
+- variables
+
+- media queries
+
+- dimensiones
+
+- textos
 
 
-__Nota:__ Este ejemplo se realiza en 20 mins o menos.
+3. usaremos @import para cada uno de los documentos y unirlos a nuestro main.scss
+
+4. Durante el desarrollo del proyecto se irán generando más documentos .scss que deberemos de unir a main.scss

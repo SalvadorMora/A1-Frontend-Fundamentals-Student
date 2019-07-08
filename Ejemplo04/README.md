@@ -1,24 +1,19 @@
-##### Ejemplo 04
+##### Introducción
+## Frontend Fundamentals: SASS
 
 ### OBJETIVO
-Los alumnos comprenderán el uso de los elementos dinámicos y cómo estos pueden ayudarnos a las interacciones y la UX.
 
-#### REQUISITOS
-
-* HTML
-* CSS
-* Bootstrap
+Implementaremos los mixins para reutilizar propiedades y valores que nuestras reglas de scss puedan llegar a tener en común.
 
 ### DESARROLLO
 
-1. Para el uso de los componentes dinámicos de Bootstrap será necesario agregar los scripts de JavaScript.
+En este ejemplo aplicaremos los mixins para generar los botones de Enviar y Cancelar de nuestro sistema.
+Usaremos los mixins para reutilizar las propiedades que ambos botones tienen en común.
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+1. Generaremos más documentos .scss donde guardaremos nuestros mixins.
 
-1. Buscaremos dentro de la documentación de Bootstrap el componente de carousel  y lo implementaremos en nuestro landing page.
+2. Retomaremos nuestro ejemplo del botón de confirmar que se encuentran en nuestros documentos login.html y registro.html.
 
-1. Cambiaremos las imágenes del carousel de Bootstrap por fotos de viajeros para nuestra landing page.
+3. Crearemos un mixin que reuna las propiedades y valores que tengan en común estas reglas
 
-__Nota:__ Este ejemplo se realiza en 10 mins o menos.
+4. Recuerda hacer un commit al terminar la actividad.

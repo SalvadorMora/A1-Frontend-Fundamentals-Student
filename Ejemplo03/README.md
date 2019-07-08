@@ -1,22 +1,27 @@
-##### Ejemplo 03
+##### Introducción
+## Frontend Fundamentals: SASS
 
 ### OBJETIVO
-Entender el uso de las clases definidas por Bootstrap para el diseño responsivo.
 
-#### REQUISITOS
-
-* HTML
-* CSS
-* Bootstrap
+Implementar los imports y partials para modularizar nuestro código de SASS.
 
 ### DESARROLLO
 
-1. Buscar en la documentación de la grid de Bootstrap las clases que tenemos disponibles para el diseño responsivo de nuestros sitios.
+Nuestro documento main.scss cada vez se hace más grande y complejo, es por eso que implementaremos los imports y partials, que nos permitirán modularizar nuestros documentos de SASS.
 
-[Grid system](https://getbootstrap.com/docs/4.3/layout/grid/)
+1. Mantendremos main.scss como nuestro documento principal.
 
-2. Usaremos las clases definidas por Bootstrap para hacer que los iconos se posicionen en vertical cuando nuestro sitio sea visto en dispositivos móviles
+2. Crearemos un documento .scss para cada uno de los tipos de estilos que estemos ocupando:
+
+- variables
+
+- media queries
+
+- dimensiones
+
+- textos
 
 
+3. usaremos @import para cada uno de los documentos y unirlos a nuestro main.scss
 
-__Nota:__ Este ejemplo se realiza en 10 mins o menos.
+4. Durante el desarrollo del proyecto se irán generando más documentos .scss que deberemos de unir a main.scss
