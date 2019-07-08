@@ -1,18 +1,16 @@
-##### Reto 01
-## Imágenes
+##### Introducción
+## Frontend Fundamentals: Diseño Responsivo
 
 ### OBJETIVO
-Haciendo uso de los elementos de Bootstrap crea la navBar y la portada para nuestra landing page, personalizada con el tema de Bedu Travels
 
-#### REQUISITOS
-1. HTML
-1. CSS
-1. Bootstrap
+El alumno ponga en práctica los conocimientos adquiridos durante el prework y el ejemplo anterior.
 
 ### DESARROLLO
-1. Haciendo uso de los elementos de Bootstrap crearemos:
-   - navBar
-   - Portada para nuestra landing page
 
-1. Ambos elementos se deberán de personalizar para el proyecto de BeduTravels.
+Se implementarán media queries para modificar la presentación de la sección de países favoritos.
 
+1. Debido a que The Grid no es totalmente responsivo deberemos de hacer uso de Flex Box
+
+2. Deberemos de condicionar una nueva clase que implemente flex box donde por el momento usamos the grid css.
+
+3. El componente deberá de ser visible para dispositivos móviles.

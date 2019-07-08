@@ -1,14 +1,16 @@
 ##### Introducción
-## Bootstrap
+## Frontend Fundamentals: Diseño Responsivo
 
 ### OBJETIVO
 
-Los alumnos implenten Bootstrap para desarrollar la barra de navegación de nuestra landing page.
+El alumno conozca el uso de media queries para el diseño de vistas responsivas.
 
 ### DESARROLLO
 
-Lo que deberemos hacer para este ejemplo es:
+Se implementarán media queries para modificar las dimensiones de la sección de iconos dentro de nuestro Home
 
-1. Agregaremos el CDN de Bootstrap en nuestra Landing
+1. Retomaremos el componentes de los iconos y deberemos de ocultarlo
+.
+2. Una vez que se oculte el componente de iconos grandes deberemos de mostrar uno con los iconos más pequeños.
 
-2. Implementaremos una barra de navegación usando Bootstrap, esta deberá de personalizarse. 
+3. Todos los cambios deberán de ser actualizados en GitHub

@@ -1,26 +1,16 @@
-##### Ejemplo 02
-## Comprobación
+##### Introducción
+## Frontend Fundamentals: Diseño Responsivo
 
 ### OBJETIVO
-Aprender el funcionamiento de la grid de Bootstrap y cómo posicionar elementos de HTML de una manera más fácil
 
-#### REQUISITOS
-
-Conocimientos de HTML y CSS
-
+El alumno ponga en práctica los conocimientos adquiridos durante el prework y el ejemplo anterior.
 
 ### DESARROLLO
 
-1. Implementaremos FontAwesome en el proyecto
+Se implementarán media queries para modificar la presentación de la sección de países favoritos.
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+1. Debido a que The Grid no es totalmente responsivo deberemos de hacer uso de Flex Box
 
-Dentro de este link podremos ver los iconos disponibles:
-[Font Awesnome](https://fontawesome.com/icons?d=gallery&q=travel&m=free)
+2. Deberemos de condicionar una nueva clase que implemente flex box donde por el momento usamos the grid css.
 
-2. Copiaremos el código necesario para poder utilizar la grid de Bootstrap desde su sitio.
-
-3. posicionamos los iconos dentro del grid de Bootstrap
-
-
-__Nota:__ Este ejemplo se realiza en 10 mins o menos.
+3. El componente deberá de ser visible para dispositivos móviles.

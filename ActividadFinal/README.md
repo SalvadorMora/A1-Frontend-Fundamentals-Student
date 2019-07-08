@@ -1,20 +1,16 @@
-##### Proyecto Final
+##### Introducción
+## Frontend Fundamentals: Diseño Responsivo
 
 ### OBJETIVO
-Haciendo uso de los elementos de Bootstrap crea la navBar y la portada para nuestra landing page, personalizada con el tema de Bedu Travels
 
-#### REQUISITOS
-1. HTML
-1. CSS
-1. Bootstrap
+El alumno deberá de generar vistas responsivas para dispositivos medianos como una tablet.
 
 ### DESARROLLO
-1. Usa el componente Carousel para mostrar las imágenes de nuestros usuarios
-1. Implementa el componente de modal dentro de nuestra portada como un call to action
-*	Dentro del modal deberá  de haber un formulario con:
-* Nombre
-* Correo Electrónico  
 
+Usando todo el código anterior deberemos de definir medias queries para nuestras vistas de dispositivos de tamaño medio como tablets.
 
+1. Reutilizaremos todo el código escrito anteriormente.
 
-__Nota:__ Este ejemplo se realiza en 10 mins o menos.
+2. Deberemos de escribir una media querie para dispositivos medianos.
+
+3. Deberemos de adaptar todas nuevas vistas a esta nueva medida.

@@ -1,24 +1,17 @@
 ##### Introducción
-## Bootstrap
+## Diseño Responsivo
 
 ### OBJETIVO
 
-Usando Bootstrap como framework de CSS desarrollaremos una Landing Page informativo para el sitio de Bedu Travels
+El alumno dominará los conceptos y herramientas necesarias para desarrollar vistas responsivas que puedan verse correctamente desde cualquier tipo de dispositivio.
 
 ### DESARROLLO
 
-Los temas que veremos durante esta sesión serán los siguientes:
+Durante esta sesión los alumnos conocerán más sobre las herramientas necesarias para poder crear vistas responsivas, capaces de adaptarse a cuaqluier tipo de pantalla.
 
-1. Agregaremos el CDN de Bootstrap en nuestra Landing
+1. Retomaremos las media queries definidas en la Sesión02: HTML y CSS Avanzado.
 
-1. Implementaremos componentes de Bootstrap como:
+2. Deberemos de usar las media queries para condicionar los estilos al tamaño de la pantalla de nuestro dispositivo.
 
-- NavBar
+3. Implementaremos nuevas medidas para los estilos que queremos mostrar en tablets.
 
-- Jumbotron
-
-- Grid
-
-- Modal
-
-- Carousel

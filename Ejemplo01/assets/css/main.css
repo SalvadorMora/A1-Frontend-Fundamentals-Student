@@ -333,24 +333,6 @@ footer > ul > li:first-of-type {
   text-align: center;
 }
 
-.top-country-gridarea{
-  display: grid;
-  grid-template-columns: 33vw 33vw 33vw;
-  grid-template-rows: auto auto auto;
-  justify-items: center;
-}
-
-.top-country-container{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.top-country-gridarea > div{
-  width: 24vw;
-  height: 30vh;
-  text-align: center;
-}
 
 
 
@@ -371,29 +353,9 @@ footer > ul > li:first-of-type {
     display: none !important;
   }
 
-    .top-country-flexarea{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  .top-country-gridarea > div{
-    width: 60vw;
-  }
-
   .searchbar{
     width: 80%;
   }
-
-  .login-inputs{
-    width: 100%;
-  }
-  
-    
-  .login-info{
-    padding: 0;
-  }
-  
 }
 
 
